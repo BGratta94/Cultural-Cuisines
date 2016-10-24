@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Chicken Skewers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='SrirachaSkewers.css'>
+        <script language="Javascript" type='text/javascript' src='SrirachaSkewers.js'></script>
+    <h1>Recipes</h1>
+    <button id="logout" onclick="logout()">Logout</button>
+    </head>
+    <body>
+        <div id="div1">
+            <table id="table">
+                <tr>
+                    <td id="td1" class="menu" onmouseover="changeColor('1')" onmouseout="revertColor('1')" onclick="goHome()">
+                        <p id="p1" >Home</p>
+                    </td>
+                    <td id="td2" class="menu" onmouseover="changeColor('2')" onmouseout="revertColor('2')" onclick="goPageTwo()">
+                        <p id="p2">Table</p>
+                    </td>
+                    <td id="td3" class="menu" onmouseover="changeColor('3')" onmouseout="revertColor('3')" onclick="goRecipes()">
+                        <p id="p3">Recipes</p>
+                    </td>
+                    <td id="td4" class="menu" onmouseover="changeColor('4')" onmouseout="revertColor('4')" onclick="goPageThree()">
+                        <p id="p4">About</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+       <div id="offset"></div>
+       <div id="ingredients">
+           <p id="steps">1. Place the soy sauce into the blender</p>
+           <img id="soysauce" class="img" src="soy sauce.jpg" onclick="moveSoy()" alt="picture of soy sauce">
+           <img id="oil" class="img" src="oil.jpg" onclick="moveOil()" alt="picture of oil">
+           <img id="salt" class="img" src="salt.jpg" onclick="moveSalt()" alt="picture of salt">
+           <img id="sriracha" class="img" src="sriracha_burned.png" onclick="moveSriracha()" alt="picture of sriracha sauce">
+           <img id="zest" class="img" src="lime zest.jpg" onclick="moveZest()" alt="picture of lime zest">
+           <img id="juice" class="img" src="lime juice.jpg" onclick="moveJuice()" alt="picture of lime juice">
+           <img id="honey" class="img" src="honey.jpg" onclick="moveHoney()" alt="picture of honey">
+           <img id="ginger" class="img" src="ginger.jpg" onclick="moveGinger()" alt="picture of ginger">
+           <img id="chicken" class="img" src="chicken pieces_burned.png" onclick="moveChicken()" alt="picture of raw chicken">
+           <img id="kebab" class="img" src="Kebab stick.jpg" onclick="moveKebab()" alt="picture of a kebab shank">
+       </div>
+       <div id="cooking">
+           <img id="kitchen" src="kitchen.png" alt="picture of a kitchen">
+           <img id="grill" src="grill_burned.png" alt="picture of a grill">
+           <img id="bag" src="marinaded bag_burned.png" alt="picture of a marinade bag">
+           <img id="blender" src="blender_burned.png" alt="picture of a blender" onclick="startBlender()">
+           <img id="finishedskewer"src="completed skewers_burned.png" alt="picture of a sriracha skewers">
+           <img id="chickenkebab1" onclick="removekebab('1')" src="kebab with chicken_burned.png" alt="picture of raw kebab">
+           <img id="chickenkebab2" onclick="removekebab('2')" src="kebab with chicken_burned.png" alt="picture of raw kebab">
+           <img id="chickenkebab3" onclick="removekebab('3')" src="kebab with chicken_burned.png" alt="picture of raw kebab">
+           
+           
+       </div>
+    </body>
+</html>

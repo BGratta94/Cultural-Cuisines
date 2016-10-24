@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cultural Cuisines</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='AdminPage.css'>
+        <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js'></script>
+        <script language="Javascript" type='text/javascript' src='AdminPage.js'></script>
+        <h1 style="text-align: center; height: 14px;">Admin Page</h1>
+        <button id="logout" onclick="logout()">Logout</button>
+    </head>
+    <body>
+        <div id="offset"></div>
+        <div id="offset2"></div>
+        <div id="useredit">
+            <p>Edit Users</p>
+            <button id='auser' class="b">Add User</button>
+            <button id='duser' class="b">Delete User</button>
+            <button id='vuser' class="b">View Users</button>
+        </div>
+        <div id="offset2"></div>
+        <div id="adminedit">
+            <p>Edit Admin</p>
+            <button id='admin' class="b" onclick="setAName()">Change Username</button>
+            <button id='admin2' class="b" onclick="setAPass()">Change Password</button>
+        </div>
+        <div id="adminTextfields">
+            <p id="ap">Admin Update</p>
+            <textarea id="auname" class="textA" maxlength="20">enter new username</textarea>
+            <textarea id="aupass" class="textA" maxlength="20">enter new password</textarea>
+            <button id="ab" onclick="submitNewAdmin()">Submit</button>
+        </div>
+        <div id="userTextfields">
+            <p id="up">Add User</p>
+            <textarea id="uuname" class="textA" maxlength="20">enter new username</textarea>
+            <textarea id="uupass" class="textA" maxlength="20">enter new password</textarea>
+            <button id="ab" onclick="submitUser()">Submit</button>
+        </div>
+        
+        <button id='back' onclick='goBack()'>Back</button>
+    </body>
+</html>

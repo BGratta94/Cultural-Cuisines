@@ -1,0 +1,123 @@
+h1
+{
+    text-align: center;
+    height: 14px;
+}
+.menu
+{
+    width:100px;
+    text-align: center;
+    background-color: red;
+    font-family: Verdana;
+    font-size: 14px;
+    border-radius: 25px;
+    border: solid black;
+}
+body
+{
+    background-color: tan;
+}
+#offset
+{
+    border: solid black;
+}
+#div1
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table
+{
+    width: 100%;
+}
+#logout
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:100px;
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+}
+#Italian
+{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#Mexican
+{
+    display: inline-block;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+#Indian
+{
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#Thai
+{
+    display: inline-block;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+#itatitle
+{
+    display: table;
+    margin: 0 auto;
+}
+#mextitle
+{
+    display: table;
+    margin: 0 auto;
+}
+#indtitle
+{
+    display: table;
+    margin: 0 auto;
+}
+#thititle
+{
+    display: table;
+    margin: 0 auto;
+}
+#img3
+{
+    border:solid red;
+    cursor:pointer;
+}
+#img1
+{
+    border:solid red;
+    cursor:pointer;
+}
+#img2
+{
+    border:solid red;
+    cursor:pointer;
+}
+#img4
+{
+    border:solid red;
+    cursor:pointer;
+}
+.titles
+{
+    font-family: Verdana;
+    font-weight: bold;
+}
+#description
+{
+    text-align: center;
+    font-family: verdana;
+    font-weight: bold;
+}
+#images
+{
+    display: table;
+    margin: 0 auto;
+}

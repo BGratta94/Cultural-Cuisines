@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='Recipes.css'>
+        <script language="Javascript" type='text/javascript' src='Recipes.js'></script>
+    <h1>Recipes</h1>
+    <button id="logout" onclick="logout()">Logout</button>
+    </head>
+    <div id="div1">
+            <table id="table">
+                <tr>
+                    <td id="td1" class="menu" onmouseover="changeColor('1')" onmouseout="revertColor('1')" onclick="goHome()">
+                        <p id="p1" >Home</p>
+                    </td>
+                    <td id="td2" class="menu" onmouseover="changeColor('2')" onmouseout="revertColor('2')" onclick="goPageTwo()">
+                        <p id="p2">Table</p>
+                    </td>
+                    <td id="td3" class="menu" onmouseover="changeColor('3')" onmouseout="revertColor('3')" onclick="goRecipes()">
+                        <p id="p3">Recipes</p>
+                    </td>
+                    <td id="td4" class="menu" onmouseover="changeColor('4')" onmouseout="revertColor('4')" onclick="goPageThree()">
+                        <p id="p4">About</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="offset"></div>
+        <p id="description">Click on one of the images to see the available recipes</p>
+        <div id="images">
+        <div id="Italian">
+            <p id="itatitle" class="titles">Italian Food</p>
+            <img  id="img1" src="ItalianFood.jpg" alt="picture of Italian food" width="400" height="300" onclick="goItalian()" onmouseover="select('1')" onmouseout="unselect('1')">
+        </div>
+        <div id="Mexican">
+            <p id="mextitle" class="titles">Mexican Food</p>
+            <img  id="img2" src="MexicanFood.jpg" alt="picture of Mexican food" width="400" height="300" onclick="goMexican()" onmouseover="select('2')" onmouseout="unselect('2')">
+        </div>
+        <div id="Indian">
+            <p id="indtitle" class="titles">Indian Food</p>
+            <img  id="img3" src="IndianFood.jpg" alt="picture of Indian food" width="400" height="300" onclick="goIndian()" onmouseover="select('3')" onmouseout="unselect('3')">
+        </div>
+        <div id="Thai">
+            <p id="thititle" class="titles">Thai Food</p>
+            <img  id="img4" src="ThaiFood.jpg" alt="picture of Thai food" width="400" height="300" onclick="goThai()" onmouseover="select('4')" onmouseout="unselect('4')">
+        </div>
+        </div>
+    </body>
+</html>

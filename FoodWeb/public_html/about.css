@@ -1,0 +1,60 @@
+h1
+{
+    text-align: center;
+    height: 14px;
+}
+.menu
+{
+    width:100px;
+    text-align: center;
+    background-color: red;
+    font-family: Verdana;
+    font-size: 14px;
+    border-radius: 25px;
+    border: solid black;
+}
+body
+{
+    background-color: tan;
+}
+#offset
+{
+    border: solid black;
+}
+#div1
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#table
+{
+    width: 100%;
+}
+.titles
+{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.set
+{
+    font-size: 30px;
+    text-align: center; 
+}
+.flag
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logout
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:100px;
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+}

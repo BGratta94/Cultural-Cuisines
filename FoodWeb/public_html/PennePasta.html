@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Penne Pasta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='PennePasta.css'>
+        <script language="Javascript" type='text/javascript' src='PennePasta.js'></script>
+    <h1>Recipes</h1>
+    <button id="logout" onclick="logout()">Logout</button>
+</head>
+        <body>
+        <div id="div1">
+            <table id="table">
+                <tr>
+                    <td id="td1" class="menu" onmouseover="changeColor('1')" onmouseout="revertColor('1')" onclick="goHome()">
+                        <p id="p1" >Home</p>
+                    </td>
+                    <td id="td2" class="menu" onmouseover="changeColor('2')" onmouseout="revertColor('2')" onclick="goPageTwo()">
+                        <p id="p2">Table</p>
+                    </td>
+                    <td id="td3" class="menu" onmouseover="changeColor('3')" onmouseout="revertColor('3')" onclick="goRecipes()">
+                        <p id="p3">Recipes</p>
+                    </td>
+                    <td id="td4" class="menu" onmouseover="changeColor('4')" onmouseout="revertColor('4')" onclick="goPageThree()">
+                        <p id="p4">About</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+       <div id="offset"></div>
+       <div id="ingredients">
+           <p id="steps">1. Place the Penne Pasta into the pot of boiling water</p>
+           <img id="penne" class="img" src="Penne_burned.png" onclick="movePasta()" alt="picture of penne pasta">
+           <img id="shallots" class="img" src="minced Shallots_burned.png" onclick="moveShallots()" alt="picture of minced shallots">
+           <img id="butter" class="img" src="butter.png" onclick="moveButter()" alt="picture of butter">
+           <img id="pepper" class="img" src="pepperflakes.jpg" onclick="moveFlakes()" alt="picture of pepper flakes">
+           <img id="garlic" class="img" src="garlic.jpg" onclick="moveGarlic()" alt="picture of garlic">
+           <img id="vodka" class="img" src="vodka_burned.png" onclick="moveVodka()" alt="picture of vodka">
+           <img id="tomato" class="img" src="tomato.jpg" onclick="moveTomato()" alt="a picture of a tomato">
+       </div>
+       <div id="offset"></div>
+       <div id="cooking">
+           <img id="kitchen" src="kitchen.png" alt="picture of a kitchen">
+           <img id="pot" src="pot.png" alt="picture of a pot" onclick="emptyPot()">
+           <img id="skillet" src="skillet_empty_burned.png" alt="picture of a skillet">
+           <img id="finishedpenne" src="FinishedPenne.png" alt="picture of penne pasta">
+       </div>
+</html>

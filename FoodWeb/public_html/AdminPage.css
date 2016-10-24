@@ -1,0 +1,108 @@
+body
+{
+   background-color: teal; 
+}
+#offset
+{
+    border: solid black;
+}
+#offset2
+{
+    height: 20px;
+}
+#useredit
+{
+   display:table;
+   margin: 0 auto;
+   border: solid black;
+   text-align: center;
+   font-family: verdana;
+   background-color: red;
+   width: 300px;
+}
+#adminedit
+{
+   display: table;
+   margin: 0 auto;
+   border: solid black;
+   text-align: center; 
+   font-family: verdana;
+   background-color: red;
+   width: 300px;
+}
+button
+{
+    background-color: tan;
+    margin-bottom: 10px;
+    font-family: verdana;
+    font-size: 12px;
+    margin-right: 5px;
+}
+#logout
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:100px;
+    background-color: red;
+    border-color: red;
+    font-weight: bold;
+}
+.b
+{
+    
+}
+.textA
+{
+    height: 18px;
+    font-size: 12px;
+    display: table;
+    margin-top: 5px;
+    position: relative;
+    left: 75px;
+}
+#ab
+{
+    position: relative;
+    left: 120px;
+    margin-top: 5px;
+}
+#adminTextfields
+{
+    border: solid black;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 130px;
+    right: 470px;
+    
+}
+#ap
+{
+    text-align: center;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+#up
+{
+    text-align: center;
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+}
+#userTextfields
+{
+    border: solid black;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 130px;
+    right: 470px;
+}
+#back
+{
+    position: absolute;
+    top: 280px;
+    right: 595px;
+}

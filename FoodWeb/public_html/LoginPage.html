@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cultural Cuisines</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='Page2.css'>
+        <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js'></script>
+        <script language="Javascript" type='text/javascript' src='Page2.js'></script>
+        <h1>Cultural Cuisines</h1>
+        <button id="logout" onclick="logout()">Logout</button>
+    </head>
+    <body>
+         <div id="div1">
+            <table id="table">
+                <tr>
+                    <td id="td1" class="menu" onmouseover="changeColor('1')" onmouseout="revertColor('1')" onclick="goHome()">
+                        <p id="p1" >Home</p>
+                    </td>
+                    <td id="td2" class="menu" onmouseover="changeColor('2')" onmouseout="revertColor('2')" onclick="goPageTwo()">
+                        <p id="p2">Table</p>
+                    </td>
+                    <td id="td3" class="menu" onmouseover="changeColor('3')" onmouseout="revertColor('3')" onclick="goRecipes()">
+                        <p id="p3">Recipes</p>
+                    </td>
+                    <td id="td4" class="menu" onmouseover="changeColor('4')" onmouseout="revertColor('4')" onclick="goPageThree()">
+                        <p id="p4">About</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="offset"></div>
+        <div id="offset2"></div>
+         <div id="offset1"></div>
+        <div id="search">
+               <form   method="get" action="">
+                    <input type="text" name="textField" value="Italian,Spanish,Asian">
+                    <input type="submit" name="Submit" value="Search">
+               </form> 
+        </div>
+        <div id="offset1"></div>
+        <img  id="img1" src="world-outline-map.gif" alt="World Map">
+    </body>
+</html>
